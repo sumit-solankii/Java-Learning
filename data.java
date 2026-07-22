@@ -17,4 +17,14 @@ class student {
     
 }
 
+public class data {
+    public static void main(String[] args){
+        student s1 = new student();
+        student s2 = new student();
+        s1.getData("Pranshul" , "Jaipur" , 19 , 95);
+        s2.getData("Ritik" , "Jaipur" , 20 , 96);
+        s1.printData();
+        s2.printData();
 
+    }
+}
